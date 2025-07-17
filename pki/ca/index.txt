@@ -1,1 +1,2 @@
 V	250717210819Z		4A986162FB50F2873D5E1864197B0C011E0C832B	good	C = RU, ST = Moscow, L = Moscow, O = Test, OU = Dev, CN = example.com
+V	260717224243Z		1001	unknown	/C=RU/ST=Moscow/L=Moscow/O=Test/OU=Dev/CN=example.com
