@@ -1,0 +1,184 @@
+/* Общий фон */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  color: #fff; /* Цвет текста на фоне изображения */
+}
+
+/* Контейнер */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Кнопка "Назад" */
+.back-button {
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background: linear-gradient(135deg, #ff6f91, #ff9a9e);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.back-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Заголовки */
+h1 {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Кнопки на главной странице */
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px;
+  font-size: 1rem;
+  color: white;
+  background: linear-gradient(135deg, #ff6f91, #ff9a9e);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+}
+
+.button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Формы ввода */
+.input-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+
+.input {
+  width: 100%;
+  max-width: 170px;
+  padding: 15px;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease;
+  margin-bottom: 15px;
+}
+
+.input:focus {
+  border-color: #ff6f91;
+  outline: none;
+  box-shadow: 0 0 5px rgba(255, 111, 145, 0.5);
+}
+
+/* Таблицы */
+.table-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+table {
+  width: 100%;
+  max-width: 800px;
+  border-collapse: collapse;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background: linear-gradient(135deg, #ff6f91, #ff9a9e);
+  color: white;
+  font-weight: bold;
+}
+
+td {
+  color: #333;
+}
+/* Стили для страницы проверки статуса сертификата */
+.check-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.check-input {
+  width: 100%;
+  max-width: 300px; /* Уменьшим ширину поля ввода */
+  padding: 12px;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease;
+}
+
+.check-input:focus {
+  border-color: #ff6f91;
+  outline: none;
+  box-shadow: 0 0 5px rgba(255, 111, 145, 0.5);
+}
+
+.check-button {
+  width: 100%;
+  max-width: 300px; /* Уменьшим ширину кнопки */
+  padding: 12px;
+  font-size: 1rem;
+  color: white;
+  background: linear-gradient(135deg, #ff6f91, #ff9a9e);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.check-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+/* Стиль для статусных сообщений */
+.status-message {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #000; /* Черный цвет текста */
+  font-weight: bold;
+}
