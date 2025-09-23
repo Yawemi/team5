@@ -10,7 +10,6 @@ const Home = () => {
         <Link to="/revoke-certificate" className="button">Отзыв сертификата</Link>
         <Link to="/check-status" className="button">Проверка статуса сертификата (OCSP)</Link>
         <Link to="/certificate-list" className="button">Список сертификатов</Link>
-        <Link to="/statistics" className="button">Статистика</Link>
       </div>
     </div>
   );
