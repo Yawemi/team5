@@ -5,7 +5,6 @@ import IssueCertificate from './components/IssueCertificate';
 import RevokeCertificate from './components/RevokeCertificate';
 import CheckStatus from './components/CheckStatus';
 import CertificateList from './components/CertificateList';
-import Statistics from './components/Statistics';
 import backgroundImage from './assets/background.jpg'; // Импортируем изображение
 
 const App = () => {
@@ -23,7 +22,6 @@ const App = () => {
           <Route path="/revoke-certificate" element={<RevokeCertificate />} />
           <Route path="/check-status" element={<CheckStatus />} />
           <Route path="/certificate-list" element={<CertificateList />} />
-          <Route path="/statistics" element={<Statistics />} />
         </Routes>
       </BrowserRouter>
     </div>
