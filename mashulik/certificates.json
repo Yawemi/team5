@@ -1,0 +1,14 @@
+{
+  "certificates": [
+    {
+      "id": "F1A914FB",
+      "commonName": "ычавпывп",
+      "email": "aaaa@mail.ru",
+      "status": "active",
+      "serialNumber": "134449608127163200317361322775134620267583056629",
+      "issuedAt": "2025-09-22T20:42:11.748345",
+      "expiresAt": "2026-09-22T20:42:11.748345",
+      "revokedAt": null
+    }
+  ]
+}
